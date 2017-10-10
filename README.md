@@ -1,2 +1,3 @@
-# neural-network
-This repo contains some primitive neural network programs without using any ml library
+## Neural Network
+
+##### This repo has some basic neural network program such as, Perptron, Adaline, etc. 

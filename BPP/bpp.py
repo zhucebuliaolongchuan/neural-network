@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from numpy import *
 import numpy as np
-import random
+# import random
 import math
 
 class BPNN:

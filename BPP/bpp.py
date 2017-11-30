@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from numpy import *
 import numpy as np
-import random
+#import random
 import math
 
 class BPNN:
@@ -59,8 +59,8 @@ class BPNN:
 
         # Update the weights
         x = array([self.train_data[data_index]])
-        for m in range(4):
-            for n in range(2):
+        for m in range(self.hidden_num):
+            for n in range(len(self.train_data[data_index])):
                 self.i_h_weight[n][m] -= alpha * x[0, n] * s1[0, m]
             self.h_o_weight[m] -= alpha * self.hidden_data_a[0, m] * s2
 

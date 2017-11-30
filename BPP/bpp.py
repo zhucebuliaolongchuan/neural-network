@@ -4,6 +4,7 @@ import numpy as np
 #import random
 import math
 
+# The layer N0-N1-O is fixed, but you could identify your own neurons of each layer
 class BPNN:
     def __init__(self, train_data, train_label, hidden_num):
         self.train_data = train_data
